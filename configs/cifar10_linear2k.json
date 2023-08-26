@@ -1,0 +1,33 @@
+{
+    "base": {
+        "seed": 0,
+        "dataset": "cifar10",
+        "model": "cnn",
+        "width": 16,
+        "adaptivity": "linear",
+        "max_epochs": 500,
+        "batch_size": 50,
+        "learning_rate": 0.001,
+        "momentum": 0.9
+    },
+    "configs": [
+        {
+            "n_train": 125,
+            "batch_size": 25,
+            "max_epochs": 1000
+        },
+        {
+            "n_train": 250,
+            "max_epochs": 1000
+        },
+        {
+            "n_train": 500
+        },
+        {
+            "n_train": 1000
+        },
+        {
+            "n_train": 2000
+        }
+    ]
+}

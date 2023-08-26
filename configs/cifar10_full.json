@@ -1,0 +1,47 @@
+{
+    "base": {
+        "seed": 0,
+        "dataset": "cifar10",
+        "model": "cnn",
+        "width": 16,
+        "adaptivity": "full",
+        "max_epochs": 1000,
+        "batch_size": 50,
+        "optimizer": "adam",
+        "learning_rate": 0.001,
+        "momentum": 0.9
+    },
+    "configs": [
+        {
+            "n_train": 125,
+            "batch_size": 25
+        },
+        {
+            "n_train": 250
+        },
+        {
+            "n_train": 500
+        },
+        {
+            "n_train": 1000
+        },
+        {
+            "n_train": 2000
+        },
+        {
+            "n_train": 4000
+        },
+        {
+            "n_train": 8000
+        },
+        {
+            "n_train": 16000
+        },
+        {
+            "n_train": 32000
+        },
+        {
+            "n_train": 50000
+        }
+    ]
+}

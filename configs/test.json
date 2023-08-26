@@ -1,0 +1,22 @@
+{
+    "base": {
+        "seed": 0,
+        "dataset": "cifar10",
+        "n_train": 1000,
+        "model": "cnn",
+        "width": 32,
+        "adaptivity": "factorized",
+        "max_epochs": 200,
+        "batch_size": 50,
+        "optimizer": "adam",
+        "learning_rate": 0.01,
+        "momentum": 0.9
+    },
+    "configs": [
+        {
+            "n_train": 125,
+            "batch_size": 25,
+            "max_epochs": 8
+        }
+    ]
+}
